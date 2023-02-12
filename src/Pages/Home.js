@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import Contact from "./Contact";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -36,6 +38,8 @@ const Home = () => {
         </div>
       </div>
       <Product />
+      <Contact />
+      <Footer />
     </>
   );
 };

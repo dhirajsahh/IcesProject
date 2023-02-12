@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
 }
-.logosection{
+ nav .logosection{
     color:rgb(26, 230, 77);
     padding: 10px;
 }
-.logosection:hover{
+ nav .logosection:hover{
     color: red;
     background-color: darkseagreen;
 }
@@ -17,9 +17,7 @@ nav{
     justify-content: space-between;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
     width: 100%;
-  
-   
-  
+    
 }
  ul{
     padding: 10px;
@@ -38,7 +36,7 @@ button{
     
    
 }
-button:hover{
+ nav button:hover{
     background-color: rgb(83, 173, 191);
 }
 .link{

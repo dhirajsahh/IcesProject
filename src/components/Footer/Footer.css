@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.footer{
+     background-color:#131313;
+    color: white;
+    padding: 16px;
+}
+.footer p{
+    font-size: 1.5rem;
+}
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+strong {
+    color: red;
+}

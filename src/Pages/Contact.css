@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contactsection{
+   
+    background-color:#f8f8f8; ;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    
+   
+   
+}
+.contactsection img{
+    width: 200px;
+}
+.contactsection ul li{
+    color: black;
+    list-style-type:none ;
+}
+.contactsection ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contactsection button{
+    border: 1px solid red;
+}
+a{
+  
+    text-decoration: none;
+}
+.contactsection .suscribesection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactsection button:hover{
+    background-color: yellowgreen;
+}
+input{
+    padding: 10px;
+}
+.contactsection ul li:hover {
+    color: red;
+    cursor: pointer;
+}

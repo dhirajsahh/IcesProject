@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
 
       <div className="aside">
-      <button><Link to="/Login" className="link cart"> <FiLogIn />Login</Link></button>
+      <button><Link to="/Signup" className="link cart"> <FiLogIn />Signup</Link></button>
       <button> <Link to="/Cart" className="link cart"><FaShoppingCart />Cart {count}</Link></button> 
 
       </div>

@@ -9,6 +9,7 @@ import Cart from "./Pages/Cart";
 import Login from "./Pages/Login";
 
 import "./App.css";
+import SignupPage from "./components/SignupPage";
 
 function App() {
   return (
@@ -19,11 +20,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/product" element={<Product />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Login />} />
+        <Route path="/Login" element={<SignupPage />} />
         <Route path="/Cart" element={<Cart />} />
         <Route path="*" element={<Notfound />} />
       </Routes>
-      {/* <Product /> */}
     </div>
   );
 }
